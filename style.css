@@ -40,70 +40,67 @@ h1 {
     color: white;
 }
 
-#btn-h1{
+#btn-h1 {
     display: flex;
     flex-direction: row-reverse;
 }
 
-
-
 #burger {
-    padding: 5px 10px ;
-    background:none;
+    padding: 5px 10px;
+    background: none;
     color: white;
     border: none;
     padding-bottom: 45px;
 }
 
-nav.closed  #burger .fa-bars {
+nav.closed #burger .fa-bars {
     display: initial;
 }
 
-nav.closed  #burger .fa-xmark {
+nav.closed #burger .fa-xmark {
     display: none;
 }
-   
-nav.opened #burger  .fa-bars {
+
+nav.opened #burger .fa-bars {
     display: none;
 }
 
 nav.opened #burger .fa-xmark {
     display: initial;
- }
+}
 
- #menu {
+#menu {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     padding: 1rem;
     position: absolute;
     top: 3rem;
     right: 0;
     transform: translateX(100%);
-    transition:0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
     padding-top: 30px;
     background-color: #d9d9d9;
- }
+}
 
- #menu li {
+#menu li {
     padding: 0.5rem 1rem;
     padding-top: 1rem;
-  }
+}
 
-  #menu li a {
-    color: white;
+#menu li a {
+    color: black;
     font-size: 0.9em;
     text-decoration: none;
-  }
-  
-  nav.opened #menu {
+}
+
+nav.opened #menu {
     box-shadow: -5px 5px 5px rgba(104, 103, 103, 0.6);
-    border-radius:10px;
+    border-radius: 10px;
     transform: translateX(0);
     transition: 1s ease-in-out;
-  }
-
+}
 
 ul,
 li {
@@ -125,7 +122,6 @@ img {
     border-radius: 20px;
     padding-top: 15px;
     border-left-width: 15px;
-
 }
 
 /*header {
@@ -133,7 +129,6 @@ img {
     width: 50px;
     size: 100px;
 }*/
-
 footer {
     background-color: rgb(86, 84, 84);
     font: white;
@@ -143,10 +138,8 @@ footer {
     width: 100%;
     padding-top: 20px;
     height: 40px;
-
     margin-bottom: 0px;
     /*verification du footer a effectuer sur multi ecran apres injection photos*/
-
 }
 
 h2 {
@@ -154,8 +147,7 @@ h2 {
 }
 
 /****** Slides *******/
-
-.slider{
+.slider {
     width: 250px;
     overflow: hidden;
     margin: 100px auto;
@@ -163,39 +155,41 @@ h2 {
     border-radius: 10px;
 }
 
-.slides{
- width: calc(250px * 3);
- animation: glisse 10s infinite;
- 
-
+.slides {
+    width: calc(250px * 3);
+    animation: glisse 10s infinite;
 }
 
-
-.slide{
+.slide {
     float: left;
 }
 
 @keyframes glisse {
     0% {
-        transform : translateX(0);
-    }
-    10%{
         transform: translateX(0);
     }
-    33%{
-        transform : translateX(-250px);
+
+    10% {
+        transform: translateX(0);
     }
-    50%{
+
+    33% {
         transform: translateX(-250px);
     }
-    66% {
-        transform : translateX(-500px);
+
+    50% {
+        transform: translateX(-250px);
     }
-    80%{
+
+    66% {
         transform: translateX(-500px);
     }
-    100% {
-        transform : translateX(0);
+
+    80% {
+        transform: translateX(-500px);
     }
-   
+
+    100% {
+        transform: translateX(0);
+    }
 }
