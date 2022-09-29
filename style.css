@@ -7,6 +7,7 @@
 
 body {
     background-color: #d9d9d9;
+
 }
 
 html,
@@ -16,6 +17,8 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
+
+
 
 
 .background {
@@ -133,6 +136,7 @@ img {
     border-left-width: 15px;
 }
 
+
 /*header {
     height: 50px;
     width: 50px;
@@ -140,6 +144,7 @@ img {
 }*/
 footer {
     background-color: rgb(86, 84, 84);
+    background-color: black;
     font: white;
     color: white;
     display: flex;
@@ -148,6 +153,7 @@ footer {
     padding-top: 20px;
     height: 40px;
     margin-bottom: 0px;
+
     /*verification du footer a effectuer sur multi ecran apres injection photos*/
 }
 
