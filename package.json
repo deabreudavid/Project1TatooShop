@@ -1,0 +1,23 @@
+{
+  "name": "project1tatooshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "validator": "npx html-validator ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deabreudavid/Project1TatooShop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deabreudavid/Project1TatooShop/issues"
+  },
+  "homepage": "https://github.com/deabreudavid/Project1TatooShop#readme",
+  "devDependencies": {
+    "w3c-html-validator": "^1.1.3"
+  }
+}
