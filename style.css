@@ -76,3 +76,50 @@ footer {
 h2 {
     font-size: 9px;
 }
+
+/****** Slides *******/
+
+.slider{
+    width: 250px;
+    overflow: hidden;
+    margin: 100px auto;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.slides{
+ width: calc(250px * 3);
+ animation: glisse 10s infinite;
+ 
+
+}
+
+
+.slide{
+    float: left;
+}
+
+@keyframes glisse {
+    0% {
+        transform : translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    33%{
+        transform : translateX(-250px);
+    }
+    50%{
+        transform: translateX(-250px);
+    }
+    66% {
+        transform : translateX(-500px);
+    }
+    80%{
+        transform: translateX(-500px);
+    }
+    100% {
+        transform : translateX(0);
+    }
+   
+}
