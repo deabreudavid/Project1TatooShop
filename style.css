@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Ribeye', cursive;
+    font-family: 'Playfair Display', serif;
 }
 
 body {
@@ -43,6 +43,7 @@ h1 {
     justify-content: center;
     display: flex;
     padding-top: 0px;
+    font-family: 'Ribeye', cursive;
 }
 
 .navbar {
@@ -50,6 +51,7 @@ h1 {
     align-items: flex-end;
     justify-content: space-between;
     color: white;
+    
 }
 
 #btn-h1 {
@@ -128,7 +130,9 @@ a:visited {
     color: white;
     text-decoration: none;
 }
-
+#presentation h1{
+    font-family: 'Playfair Display', serif;
+}
 img {
     width: 360px;
     border-radius: 20px;
