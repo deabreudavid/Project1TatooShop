@@ -7,7 +7,7 @@
 
 body {
     background-color: #d9d9d9;
-    
+
 }
 
 html,
@@ -51,7 +51,7 @@ h1 {
     align-items: flex-end;
     justify-content: space-between;
     color: white;
-    
+
 }
 
 #btn-h1 {
@@ -130,9 +130,11 @@ a:visited {
     color: white;
     text-decoration: none;
 }
-#presentation h1{
+
+#presentation h1 {
     font-family: 'Playfair Display', serif;
 }
+
 img {
     width: 360px;
     border-radius: 20px;
@@ -174,7 +176,7 @@ h2 {
     border-radius: 20px;
 }
 
-.slides{
+.slides {
     width: calc(500px * 3);
     animation: glisse 10s infinite;
 }
