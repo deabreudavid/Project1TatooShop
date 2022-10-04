@@ -159,11 +159,15 @@ a:visited {
     margin-bottom: 10px;
     border-left-width: 15px;
 }
-
+#presentation h3{
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+    color: rgb(62,63,62)
+} 
 #presentation p {
     margin: 10px;
     text-align: justify;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 
 
@@ -242,5 +246,6 @@ h2 {
     font-size: 9px;
     font-family: 'Playfair Display', serif;
 }
+
 
 
