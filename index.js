@@ -33,7 +33,6 @@ accordeonItemHeaders.forEach(accordeonItemHeader => {
     });
 });
 
-
 /****Carousel */
 
 const buttons = document.querySelectorAll("[data-carousel-button]")
@@ -54,3 +53,4 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
   })
 })
+
