@@ -10,7 +10,6 @@ burgerButton.addEventListener("click", () => {
     } else {
         navigation.className = "closed";
     }
-
 });
 /*Realisation partie FAQ*/
 

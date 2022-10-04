@@ -68,7 +68,6 @@ h1 {
     color: white;
     border: none;
     padding-bottom: 45px;
-
 }
 
 nav.closed #burger .fa-bars {
@@ -114,6 +113,9 @@ nav.opened #burger .fa-xmark {
     text-decoration: none;
 }
 
+nav.closed #menu{
+    visibility: hidden;
+}
 nav.opened #menu {
     box-shadow: -5px 5px 5px rgba(104, 103, 103, 0.6);
     border-radius: 10px;
@@ -164,29 +166,7 @@ a:visited {
     margin-top: 2px;
 }
 
-/*header {
-    height: 50px;
-    width: 50px;
-    size: 100px;
-}*/
-footer {
-    background-color: rgb(86, 84, 84);
-    background-color: black;
-    color: white;
-    display: flex;
-    bottom: 0;
-    width: 100%;
-    padding-top: 20px;
-    height: 40px;
-    margin-bottom: 0px;
-    margin-top: auto;
 
-    /*verification du footer a effectuer sur multi ecran apres injection photos*/
-}
-
-h2 {
-    font-size: 9px;
-}
 
 /****** Slides *******/
 .slider {
@@ -236,111 +216,31 @@ h2 {
     }
 }
 
-/***** Carousel ********/
 
+/*header {
+    height: 50px;
+    width: 50px;
+    size: 100px;
+}*/
 
-.carousel {
-    width: 300px;
-    height: 200px;
-    position: relative;
-    margin: 10px auto;
-}
-
-.carousel>ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-}
-
-.carousel .slide {
-    position: absolute;
-    inset: 0;
-    opacity: 0;
-    transition: 200ms opacity ease-in-out;
-    transition-delay: 200ms;
-
-
-}
-
-.carousel .slide>img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 20px;
-
-}
-
-.carousel .slide[data-active] {
-    opacity: 1;
-    z-index: 1;
-    transition-delay: 0ms;
-}
-
-.carousel-button {
-    position: absolute;
-    z-index: 2;
-    background: none;
-    border: none;
-    font-size: 4rem;
-    top: 50%;
-    transform: translateY(-50%);
-    color: rgba(255, 255, 255, .5);
-    cursor: pointer;
-
-    padding: 0 .5rem;
-
-}
-
-.carousel-button:hover,
-.carousel-button:focus {
+footer {
+    background-color: rgb(86, 84, 84);
+    background-color: black;
     color: white;
-
-}
-
-.carousel-button:focus {
-    outline: none;
-}
-
-.carousel-button.prev {
-    left: 1rem;
-}
-
-.carousel-button.next {
-    right: 1rem;
-}
-
-
-/****** tatoueurs galerie ***/
-
-#prestattoo h1{
-font-family: 'Playfair Display', serif;
-margin-top: 10px;
-margin-bottom: 0%;
-}
-.artiste {
     display: flex;
-    margin: 25px;
+    bottom: 0;
+    width: 100%;
+    padding-top: 20px;
+    height: 40px;
+    margin-bottom: 0px;
+    margin-top: auto;
+
+    /*verification du footer a effectuer sur multi ecran apres injection photos*/
 }
 
-.artiste img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-}
-
-.artiste h2 {
+h2 {
+    font-size: 9px;
     font-family: 'Playfair Display', serif;
-    font-size: 25px;
-    margin-top: 50px;
-    margin-left: 35px;
 }
 
-#prestattoo p {
-    font-family: 'Playfair Display', serif;
-    font-size: 15px;
-    margin: 15px;
-    text-align: justify;
-}
+
