@@ -97,7 +97,6 @@ nav.opened #burger .fa-xmark {
     transition: 0.5s ease-in-out;
     padding-top: 30px;
     background-color: #d9d9d9;
-
 }
 
 #menu li {
@@ -137,7 +136,7 @@ a:visited {
     font-family: 'Playfair Display', serif;
 }
 
-img {
+#presentation img {
     width: 360px;
     border-radius: 20px;
     padding-top: 15px;
@@ -216,3 +215,80 @@ h2 {
         transform: translateX(0);
     }
 }
+
+/***** Carousel ********/
+
+
+.carousel {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 80px auto;
+
+  }
+  
+  .carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+  }
+  
+  .carousel .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+
+    
+  }
+  
+  .carousel .slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    
+  }
+  
+  .carousel .slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+   
+    padding: 0 .5rem;
+   
+  }
+  
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    
+  }
+  
+  .carousel-button:focus {
+    outline: none;
+  }
+  
+  .carousel-button.prev {
+    left: 1rem;
+  }
+  
+  .carousel-button.next {
+    right: 1rem;
+  }
