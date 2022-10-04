@@ -6,12 +6,21 @@
     display: flex;
     flex-direction: column;
     align-items: column;
+    width: 20rem;
 }
 #name {
     border-radius: 10px;
 }
 
 #email {
+    border-radius: 10px;
+}
+
+#number {
+    border-radius: 10px;
+}
+
+#subject {
     border-radius: 10px;
 }
 
