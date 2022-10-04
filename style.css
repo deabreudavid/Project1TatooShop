@@ -196,19 +196,19 @@ h2 {
     }
 
     33% {
-        transform: translateX(-360px);
+        transform: translateX(-300px);
     }
 
     50% {
-        transform: translateX(-360px);
+        transform: translateX(-300px);
     }
 
     66% {
-        transform: translateX(-720px);
+        transform: translateX(-600px);
     }
 
     80% {
-        transform: translateX(-720px);
+        transform: translateX(-600px);
     }
 
     100% {
