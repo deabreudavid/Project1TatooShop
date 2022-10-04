@@ -97,7 +97,7 @@ nav.opened #burger .fa-xmark {
     transition: 0.5s ease-in-out;
     padding-top: 30px;
     background-color: #d9d9d9;
-
+    z-index: 1;
 }
 
 #menu li {
@@ -116,6 +116,7 @@ nav.opened #menu {
     border-radius: 10px;
     transform: translateX(0);
     transition: 1s ease-in-out;
+    
 }
 
 ul,
@@ -137,7 +138,7 @@ a:visited {
     font-family: 'Playfair Display', serif;
 }
 
-img {
+#presentation img {
     width: 360px;
     border-radius: 20px;
     padding-top: 15px;
@@ -197,22 +198,126 @@ h2 {
     }
 
     33% {
-        transform: translateX(-360px);
+        transform: translateX(-300px);
     }
 
     50% {
-        transform: translateX(-360px);
+        transform: translateX(-300px);
     }
 
     66% {
-        transform: translateX(-720px);
+        transform: translateX(-600px);
     }
 
     80% {
-        transform: translateX(-720px);
+        transform: translateX(-600px);
     }
 
     100% {
         transform: translateX(0);
     }
 }
+
+/***** Carousel ********/
+
+
+.carousel {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 10px auto;
+  }
+  
+  .carousel > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+  }
+  
+  .carousel .slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+
+    
+  }
+  
+  .carousel .slide > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    
+  }
+  
+  .carousel .slide[data-active] {
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 4rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+   
+    padding: 0 .5rem;
+   
+  }
+  
+  .carousel-button:hover,
+  .carousel-button:focus {
+    color: white;
+    
+  }
+  
+  .carousel-button:focus {
+    outline: none;
+  }
+  
+  .carousel-button.prev {
+    left: 1rem;
+  }
+  
+  .carousel-button.next {
+    right: 1rem;
+  }
+ 
+
+  /****** tatoueurs galerie ***/
+
+
+.artiste{
+    display: flex;
+    margin: 25px ;
+}
+
+.artiste img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+.artiste h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 35px;
+  }
+ #prestattoo p{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    margin : 15px;
+    text-align: justify;
+  }
+
