@@ -15,13 +15,10 @@ body {
 
 #FAQ h1 {
     font-family: 'Playfair Display', serif;
+    margin-top: 10px;
 }
 
-h1 {
-    text-align: center;
-    margin: 2rem 0;
-    font-size: 20px;
-}
+
 
 .accordeon {
     width: 90%;

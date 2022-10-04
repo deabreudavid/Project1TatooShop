@@ -37,7 +37,6 @@ body {
     display: flex;
     margin-bottom: 25px;
 
-
 }
 
 h1 {
@@ -47,6 +46,7 @@ h1 {
     display: flex;
     padding-top: 0px;
     font-family: 'Ribeye', cursive;
+    margin: 30px auto;
 }
 
 .navbar {
@@ -147,18 +147,21 @@ a:visited {
 #presentation h1 {
     font-family: 'Playfair Display', serif;
     margin-top: 10px;
+    margin-bottom: 0%;
 }
 
 #presentation img {
-    width: 360px;
+    width: 320px;
     border-radius: 20px;
-    padding-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     border-left-width: 15px;
 }
 
 #presentation p {
-    padding: 15px;
+    margin: 10px;
     text-align: justify;
+    margin-top: 2px;
 }
 
 /*header {
@@ -189,7 +192,7 @@ h2 {
 .slider {
     width: 300px;
     overflow: hidden;
-    margin: 80px auto;
+    margin: 20px auto;
     height: 200px;
     border-radius: 20px;
 }
@@ -312,7 +315,11 @@ h2 {
 
 /****** tatoueurs galerie ***/
 
-
+#prestattoo h1{
+font-family: 'Playfair Display', serif;
+margin-top: 10px;
+margin-bottom: 0%;
+}
 .artiste {
     display: flex;
     margin: 25px;

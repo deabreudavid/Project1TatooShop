@@ -1,4 +1,9 @@
- .closed {
+.contact {
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+} 
+
+.closed {
    display: flex;
    flex-direction:column;
    align-items:center;
