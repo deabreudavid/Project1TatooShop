@@ -100,6 +100,7 @@ nav.opened #burger .fa-xmark {
     transition: 0.5s ease-in-out;
     padding-top: 30px;
     background-color: #d9d9d9;
+    z-index: 1;
 }
 
 #menu li {
@@ -118,6 +119,7 @@ nav.opened #menu {
     border-radius: 10px;
     transform: translateX(0);
     transition: 1s ease-in-out;
+
 }
 
 ul,
@@ -332,7 +334,6 @@ h2 {
 #prestattoo p {
     font-family: 'Playfair Display', serif;
     font-size: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-
+    margin: 15px;
+    text-align: justify;
 }
