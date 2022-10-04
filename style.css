@@ -223,8 +223,7 @@ h2 {
     width: 300px;
     height: 200px;
     position: relative;
-    margin: 80px auto;
-
+    margin: 10px auto;
   }
   
   .carousel > ul {
@@ -292,3 +291,32 @@ h2 {
   .carousel-button.next {
     right: 1rem;
   }
+ 
+
+  /****** tatoueurs galerie ***/
+
+
+.artiste{
+    display: flex;
+    margin: 25px ;
+}
+
+.artiste img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+.artiste h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 35px;
+  }
+ #prestattoo p{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px ;
+   
+  }
+
