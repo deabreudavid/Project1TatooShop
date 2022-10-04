@@ -28,3 +28,17 @@ accordeonItemHeaders.forEach(accordeonItemHeader => {
         }
     });
 });
+
+/*Btn Submit*/
+
+const submitButton = document.getElementsByClassName("Submit");
+const body = getElementsByClassName("div");
+submitButton.addEventListener("click", () => {
+    if (body.className === "closed") {
+        body.className = "opened";
+    } else {
+        body.className = "closed";
+    }
+
+});
+
