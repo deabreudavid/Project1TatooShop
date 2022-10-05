@@ -50,30 +50,42 @@
                      pouvez aussi nous faire parvenir une demande/réservation par 
                      le biais du formulaire ci-dessous.</h2>
                 </section>
+
+                <form id="formulaire">
                 <section id="container">
+                    <div id="formpic">
+                    <div>
                     <h3>Nom</h3>
-                 <input type="text" id="name"/>
+                 <input type="text" id="name" required/>
                     <h3>Email</h3>
-                 <input type="text" id="email"  placeholder="tattoo@example.com"/>
+                 <input type="email" id="email"  placeholder="tattoo@example.com" required/>
                     <h3>Votre numéro de téléphone</h3>
-                 <input type="text" id="number"/>
+                 <input type="tel" id="tel" required/>
+                 <br>
                  <label for="tattoo-select">Tatoueur.se</label>
-                 <select name="pets" id="tattoo-select">
+                 <select name="tattoo" id="tattoo-select">
                     <option value="tattoo">--Choisi la destination du message--</option>
                     <option value="bobby">Bobby</option>
                     <option value="alba">Alba</option>
                     <option value="mia">Mia</option>
                     <option value="pepito">Pépito</option>
                  </select>
-                    <h3>Message</h3>
-                 <textarea type="text" id="message"></textarea>
-                 <section class="btn-Submit">
-                     <button type="button" onclick="testAlertDialog()" class="Submit">
+                </div>
+                <div>
+                 <img src="images/crys.png" alt="" class="crys">
+                </div>
+                </div>
+                 <h3>Message</h3>
+                    <textarea type="text" id="message"></textarea>
+                    <input type="submit" value="Envoyer">
+                </form>
+                <!--   <button type="button" onclick="testAlertDialog()" class="Submit">
                          <i class="fa-regular fa-envelope">
                         </i>
                         <a>Envoyer</a>
                     </button> 
                   </section>
+                   -->
                 </section>
     </div>
     <script src="index.js"></script>
