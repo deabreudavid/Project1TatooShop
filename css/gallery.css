@@ -108,7 +108,8 @@
 
 @media screen and (min-width: 361px){
     #prestattoo{
-        margin: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     #prestattoo h1{
         font-family: 'Playfair Display', serif;
