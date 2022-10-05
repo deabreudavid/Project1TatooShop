@@ -16,6 +16,7 @@ body {
 #FAQ h1 {
     font-family: 'Playfair Display', serif;
     margin-top: 10px;
+    margin-bottom: 0%;
 }
 
 
@@ -88,7 +89,7 @@ transition c'est le reglage du temps et du type de mouvement*/
 
 /***mediascreen***/
 
-@media screen and (min-width:360px) {
+@media screen and (min-width:361px) {
 #FAQ{
     width: 100%;
 }

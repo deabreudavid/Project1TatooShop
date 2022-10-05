@@ -107,6 +107,9 @@
 /**** mediascreen ****/
 
 @media screen and (min-width: 361px){
+    #prestattoo{
+        margin: 20px;
+    }
     #prestattoo h1{
         font-family: 'Playfair Display', serif;
         margin-top: 10px;
