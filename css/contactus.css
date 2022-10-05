@@ -20,10 +20,6 @@
     border-radius: 10px;
 }
 
-#subject {
-    border-radius: 10px;
-}
-
 #message {
     border-radius: 10px;
     height: 100px;
@@ -71,4 +67,53 @@ label{
 select{
     border-radius: 50px;
 }
+@media only screen and (min-width:1406px) {
+    #container {
+        display: flex;
+        margin-right: 70rem;
+        padding-top:10px;
+        padding: 15px;
+    }
+    #name {
+        border-radius: 10px;
+        width:45rem;
+        height:40px;
+    }
+    
+    #email {
+        border-radius: 10px;
+        width:45rem;
+        height:40px;
+    }
+    
+    #number {
+        border-radius: 10px;
+        width:45rem;
+        height:40px;
+    }
+    
+    select{
+        border-radius: 10px;
+        width:45rem;
+        height:40px;
+    }
+    
+    #message {
+        border-radius: 10px;
+        height: 150px;
+        width: 90rem;
+    }
+    .btn-Submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        margin-left: 45rem;
+        height: 100px;
+    }
+    .Submit i {
+        height: 40px;
+    }
 
+    
+}
