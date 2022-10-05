@@ -52,4 +52,7 @@ buttons.forEach(button => {
     delete activeSlide.dataset.active
   })
 })
+function testAlertDialog()  {
 
+    alert("Merci pour votre message");
+}
