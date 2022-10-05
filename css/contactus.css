@@ -77,7 +77,7 @@ select{
     margin-bottom: 5px;
 }
 
-@media only screen and (min-width:1406px) {
+@media only screen and (min-width:361px) {
     #container {
         display: flex;
         margin-right: 70rem;
