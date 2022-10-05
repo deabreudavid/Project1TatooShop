@@ -54,7 +54,10 @@ buttons.forEach(button => {
 })
 
 //***Contact */
+
+
 function testAlertDialog()  {
 
-    alert("Merci de nous laisser votre message, nous vous répondrons dans les plus brefs délais.");
+    alert("Merci pour votre message, nous vous répondrons dans les plus brefs délais.");
 }
+
