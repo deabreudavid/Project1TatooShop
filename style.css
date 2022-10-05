@@ -258,8 +258,12 @@ h2 {
         display: none;
     }
     #menu_responsive {
-        display:initial;
-        
+        display: inline;
+        display: flex;
+    }
+    a {
+        padding: 7rem;
+        font-size:1.7rem
     }
 }
 
