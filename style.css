@@ -22,7 +22,9 @@ body {
 }
 
 
-
+.navbarresponsive{
+    display: none;
+}
 
 .background {
     background-image: url("images/home2.jpeg");
@@ -85,7 +87,9 @@ nav.opened #burger .fa-bars {
 nav.opened #burger .fa-xmark {
     display: initial;
 }
-
+#responsivepres{
+display: none;
+}
 #menu_responsive {
     display: none;
 }
@@ -227,6 +231,9 @@ a:visited {
     }
 }
 
+.sliderres{
+    display: none;
+}
 
 /*header {
     height: 50px;
@@ -268,10 +275,13 @@ h2 {
         margin-top: 10px;
         font-size: 65px;
     }
+
     #menu_responsive {
 
         display: inline;
         display: flex;
+        justify-content: space-evenly;
+
     }
 
     a {
@@ -284,16 +294,102 @@ h2 {
 
     }
 
-    .logotype {
-        font: 80px;
-        color: white;
-        justify-content: center;
+    .navbarresponsive{
+        display: unset;
+    }
+    .navbar{
+        display: none;
+    }
+    .logoresponsive{
+    height: 170px;
+    width: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+    }
+    #responsivepres h1{
+        font-family: 'Playfair Display', serif;
+        margin-top: 10px;
+        margin-bottom: 0%;
+        font-size: 65px;
+    }
+    #responsivepres{
+        display: unset;
+    }
+     #presentationres{
         display: flex;
-        padding-top: 0px;
-        font-family: 'Ribeye', cursive;
-        margin: 30px auto;
+       margin-top: 20px;
+     }
+     #presentation{
+        display: none;
+     }
+     .imgres{
+        margin-left: 30px;
+     }
+     #presentationres img{
+        width: 400px;
+        border-radius: 20px;
+     }
+     #presentationres a{
+        font-size:15px;
+        display: flex;
+        justify-content: center;
+        padding:0%;
+     }
+     #presentationres p{
+        font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            margin: 25px;
+            text-align: justify;
+            padding-top: 50px;
+            padding-bottom: 50px;
+     }
+     .slider{
+        display: none;
+     }
+     .sliderres {
+    display: unset;
+        width: 600px;
+        overflow: hidden;
+        margin: 20px auto;
+        height: 300px;
+        border-radius: 20px;
+    }
+    .slidesres {
+        width: calc(600px * 3);
+        animation: glisse 10s infinite;
+    }
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    33% {
+        transform: translateX(-600px);
+    }
+
+    50% {
+        transform: translateX(-600px);
     }
 
 
+    66% {
+        transform: translateX(-1200px);
+    }
+
+    80% {
+        transform: translateX(-1200px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+}
 
 }

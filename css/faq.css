@@ -95,8 +95,9 @@ transition c'est le reglage du temps et du type de mouvement*/
 }
 #FAQ h1 {
     font-family: 'Playfair Display', serif;
-    margin-top: 10px;
-    font-size: 65px;
+        margin-top: 10px;
+        margin-bottom: 0%;
+        font-size: 65px;
   
 }
 
