@@ -58,7 +58,6 @@ Button a {
 h3 {
     font-size: 1.4rem;
     color: rgb(9, 9, 9);
-    font-weight: lighter;
 }
 
 label{
@@ -105,7 +104,7 @@ select{
         font-size:20px;
     }
     
-    #tel {
+    #number {
         border-radius: 10px;
         width:45rem;
         height:40px;
@@ -122,7 +121,7 @@ select{
     #message {
         border-radius: 10px;
         height: 150px;
-        width: 87rem;
+        width: 90rem;
         font-size:20px;
     }
     .btn-Submit {
@@ -163,5 +162,6 @@ select{
 }   
 #formpic{
     display: flex;
+justify-content: space-between;
 }
 }
