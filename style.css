@@ -87,7 +87,7 @@ nav.opened #burger .fa-xmark {
 }
 
 #menu_responsive {
-    display:none;
+    display: none;
 }
 
 #menu {
@@ -117,9 +117,10 @@ nav.opened #burger .fa-xmark {
     text-decoration: none;
 }
 
-nav.closed #menu{
+nav.closed #menu {
     display: none;
 }
+
 nav.opened #menu {
     box-shadow: -5px 5px 5px rgba(104, 103, 103, 0.6);
     border-radius: 10px;
@@ -163,15 +164,17 @@ a:visited {
     margin-bottom: 10px;
     border-left-width: 15px;
 }
+
 #presentation p {
     margin: 10px;
     text-align: justify;
     margin-top: 5px;
 }
-#presention a{
+
+#presention a {
     font-size: 12px;
     font-family: 'Playfair Display', serif;
-    color: rgb(62,63,62);
+    color: rgb(62, 63, 62);
     text-decoration: none;
 }
 
@@ -250,23 +253,47 @@ h2 {
     font-size: 9px;
     font-family: 'Playfair Display', serif;
 }
-@media  screen and (min-width: 361px) {
+
+@media screen and (min-width: 361px) {
     #burger {
-        display:none;
+        display: none;
     }
+
     #menu {
         display: none;
+    }
+
+    #presentation h1{
+        font-family: 'Playfair Display', serif;
+        margin-top: 10px;
+        font-size: 65px;
     }
     #menu_responsive {
 
         display: inline;
         display: flex;
     }
+
     a {
         padding: 7rem;
-        font-size:1.7rem
+        font-size: 1.7rem
+    }
+
+    .titlemenu {
+        display: none;
 
     }
+
+    .logotype {
+        font: 80px;
+        color: white;
+        justify-content: center;
+        display: flex;
+        padding-top: 0px;
+        font-family: 'Ribeye', cursive;
+        margin: 30px auto;
+    }
+
+
+
 }
-
-
