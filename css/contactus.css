@@ -75,6 +75,12 @@ select{
     font-weight: lighter;
     color: rgb(42, 42, 43);
     margin-bottom: 5px;
+   text-align: justify;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.crys{
+    display: none;
 }
 
 @media only screen and (min-width:361px) {
@@ -88,30 +94,35 @@ select{
         border-radius: 10px;
         width:45rem;
         height:40px;
+        font-size:20px;
     }
     
     #email {
         border-radius: 10px;
         width:45rem;
         height:40px;
+        font-size:20px;
     }
     
     #number {
         border-radius: 10px;
         width:45rem;
         height:40px;
+        font-size:20px;
     }
     
     select{
         border-radius: 10px;
         width:45rem;
         height:40px;
+        font-size:20px;
     }
     
     #message {
         border-radius: 10px;
         height: 150px;
         width: 90rem;
+        font-size:20px;
     }
     .btn-Submit {
         display: flex;
@@ -134,6 +145,23 @@ select{
         color: rgb(42, 42, 43);
         margin-bottom: 5px;
     }
+ .crys{
+    display:unset;
+    width:330px;
+    height: 330px;
+    margin-left: 50%;
 
-    
+ }   
+ h3 {
+    font-size: 1.4rem;
+    color: rgb(9, 9, 9);
+    font-weight: lighter;
+}
+::placeholder{
+    font-size:20px;
+}   
+#formpic{
+    display: flex;
+justify-content: space-between;
+}
 }

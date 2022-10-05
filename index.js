@@ -55,9 +55,12 @@ buttons.forEach(button => {
 
 //***Contact */
 
+const message =
+    "Merci pour votre message, nous vous répondrons dans les plus brefs délais.";
 
-function testAlertDialog()  {
-
-    alert("Merci pour votre message, nous vous répondrons dans les plus brefs délais.");
-}
-
+document
+    .getElementById("formulaire")
+    .addEventListener("submit", function (event) {
+        event.preventDefault();
+        alert(message);
+    });
