@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: grey;
+    color: rgb(129, 126, 126);
+    /* display: flex; */
+    /* flex-direction: column; */
+
+}
+
+#FAQ h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+
+
+.accordeon {
+    width: 90%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.accordeon-item {
+    background-color: white;
+    color: black;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 black(0, 0, 0, 0.25);
+}
+
+.accordeon-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordeon-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+.accordeon-item-header.active::after {
+    /*content: "\2212";*/
+    /*commentaire: avec content on choisit au niveau de la barre du moins
+transform c'est l'effet de style pour la rotation
+transition c'est le reglage du temps et du type de mouvement*/
+    transform: rotate(135deg);
+}
+
+/*reglage de base du rotate 45degrés*/
+.accordeon-item-body {
+    display: none;
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid grey;
+    border-image: linear-gradient(to right, transparent, grey, black, grey, transparent) 1;
+    /*le linear-greadient permet de faire une ligne avec une combinaison de couleurs et permettre un effet sans limite de 
+    combinaisons*/
+    overflow: hidden;
+    /*cache le texte lors du deploiement*/
+    transition: max-height 0.5s ease-out;
+
+}
+
+/*.accordeon-item-body-content {
+
+}*/
+
+.accordeon-item-header.active+.accordeon-item-body {
+    display: block;
+    max-height: auto;
+}
+
+/***mediascreen***/
+
+@media screen and (min-width:500px) {
+#FAQ{
+    width: 100%;
+}
+#FAQ h1 {
+    font-family: 'Playfair Display', serif;
+        margin-top: 10px;
+        margin-bottom: 0%;
+        font-size: 65px;
+  
+}
+
+.accordeon {
+    width: 90%;
+    margin:  auto;
+}
+
+.accordeon-item {
+    background-color: white;
+    color: black;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 5px 0 black(0, 0, 0, 0.25);
+    font-size: 20px;
+}
+
+.accordeon-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.accordeon-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    transition: transform 0.5s ease-in-out;
+}
+
+.accordeon-item-header.active::after {
+    /*content: "\2212";*/
+    /*commentaire: avec content on choisit au niveau de la barre du moins
+transform c'est l'effet de style pour la rotation
+transition c'est le reglage du temps et du type de mouvement*/
+    transform: rotate(135deg);
+}
+
+/*reglage de base du rotate 45degrés*/
+.accordeon-item-body {
+    display: none;
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid grey;
+    border-image: linear-gradient(to right, transparent, grey, black, grey, transparent) 1;
+    /*le linear-greadient permet de faire une ligne avec une combinaison de couleurs et permettre un effet sans limite de 
+    combinaisons*/
+    overflow: hidden;
+    /*cache le texte lors du deploiement*/
+    transition: max-height 0.5s ease-out;
+
+
+}
+
+/*.accordeon-item-body-content {
+
+}*/
+
+.accordeon-item-header.active+.accordeon-item-body {
+    display: block;
+    max-height: auto;
+}
+}

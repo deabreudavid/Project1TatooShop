@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tattoo Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/contactus.css">
+    <script src="index.js" defer></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="icon" sizes="30x30" type="image/png" href="images/icone-2.png">
+</head>
+
+<body>
+    <header class="background">
+        <nav class="closed">
+            
+            <div class="navbarresponsive">
+                <img class="logoresponsive" src="images/logo1.png" alt="">
+                
+                <div class="responsivemenu">
+
+                    <ul id="menu_responsive">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Galerie</a></li>
+                        <li><a href="faq.html">F.A.Q.</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
+                    </ul>
+                    </div>
+
+            </div>
+            
+            <div class="navbar">
+                
+                <img class="logo" src="images/logo1.png" alt="">
+
+
+                <div class="responsivemenu">
+
+                    <h1 class="titlemenu">Tattoo Shop</h1>
+                 
+                </div>
+
+                <div id="btn-h1">
+                    <button type="button" id="burger">
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+                <ul id="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="gallery.html">Galerie</a></li>
+                    <li><a href="faq.html">F.A.Q.</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+    </header>
+
+
+    <div class="container">
+        <section id="text">
+            <h1 class="contact">Contact</h1>
+                    <h2>Vous pouvez nous contacter par téléphone, email ou par écrit. Vous
+                        pouvez aussi nous faire parvenir une demande/réservation par
+                        le biais du formulaire ci-dessous.</h2>
+        </section>
+
+        <form id="formulaire">
+            <section id="container">
+                <div id="formpic">
+                    <div>
+                        <h3>Nom :</h3>
+                        <input type="text" id="name" required >
+                        <h3>Email :</h3>
+                        <input type="email" id="email" placeholder="tattoo@example.com" required >
+                        <h3>N° tel :</h3>
+                        <input type="tel" id="tel" required >
+                        <br>
+                        <label for="tattoo-select">Tatoueur :</label>
+                        <select name="tattoo" id="tattoo-select">
+                            <option value="tattoo">--Destinataire du message--</option>
+                            <option value="bobby">Bobby</option>
+                            <option value="alba">Alba</option>
+                            <option value="mia">Mia</option>
+                            <option value="pepito">Pépito</option>
+                        </select>
+                    </div>
+                    <div>
+                        <img src="images/crys.png" alt="" class="crys">
+                    </div>
+                </div>
+                <h3>Message :</h3>
+                <textarea  id="message"> </textarea>
+                <div class="bttn">
+                    <input type="submit" value="Envoyer" class="submit-btn">
+                </div>
+            </section>
+        </form>
+        <!--   <button type="button" onclick="testAlertDialog()" class="Submit">
+                         <i class="fa-regular fa-envelope">
+                        </i>
+                        <a>Envoyer</a>
+                    </button> 
+                  </section>
+                   -->
+      
+    </div>
+    <script src="index.js"></script>
+    <footer>
+        <h2>© CHABOCHE DEABREU CARINHA TERRIBLE WildCodeSchool 10/2022</h2>
+
+    </footer>
+
+</body>
+
+
+</html>
