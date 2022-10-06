@@ -1,5 +1,5 @@
 
-#prestattoo h1{
+.prestattoo h1{
     font-family: 'Playfair Display', serif;
     margin-top: 10px;
     margin-bottom: 0%;
@@ -22,7 +22,7 @@
         margin-left: 35px;
     }
     
-    #prestattoo p {
+    .prestattoo p {
         font-family: 'Playfair Display', serif;
         font-size: 15px;
         margin: 15px;
@@ -106,12 +106,12 @@
 
 /**** mediascreen ****/
 
-@media screen and (min-width: 361px){
-    #prestattoo{
+@media screen and (min-width: 400px){
+    .prestattoo{
         margin-left: 20px;
         margin-right: 20px;
     }
-    #prestattoo h1{
+    .prestattoo h1{
         font-family: 'Playfair Display', serif;
         margin-top: 10px;
         margin-bottom: 0%;
@@ -124,20 +124,20 @@
         
         .artiste img {
             border-radius: 50%;
-            width: 250px;
-            height: 250px;
+            width: 350px;
+            height: 350px;
         }
         
         .artiste h2 {
             font-family: 'Playfair Display', serif;
             font-size: 50px;
-            margin-top: 90px;
+            margin-top: 115px;
             margin-left: 50px;
         }
         
-        #prestattoo p {
+        .prestattoo p {
             font-family: 'Playfair Display', serif;
-            font-size: 25px;
+            font-size: 27px;
             margin: 15px;
             text-align: justify;
         }
@@ -146,8 +146,8 @@
     
     
     .carousel {
-        width: 600px;
-        height: 450px;
+        width: 700px;
+        height: 380px;
         position: relative;
         margin: 10px auto;
     }

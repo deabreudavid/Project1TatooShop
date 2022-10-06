@@ -189,12 +189,15 @@ a:visited {
     overflow: hidden;
     margin: 20px auto;
     height: 200px;
+    
+}
+.slider img{
     border-radius: 20px;
 }
 
 .slides {
     width: calc(500px * 3);
-    animation: glisse 10s infinite;
+    animation: glisse 10s infinite;  
 }
 
 .slide {
@@ -261,7 +264,7 @@ h2 {
     font-family: 'Playfair Display', serif;
 }
 
-@media screen and (min-width: 361px) {
+@media screen and (min-width: 400px) {
     #burger {
         display: none;
     }
@@ -331,24 +334,25 @@ h2 {
         border-radius: 20px;
      }
      #presentationres a{
-        font-size:15px;
+        font-size:20px;
         display: flex;
         justify-content: center;
         padding:0%;
+        margin-top:10px;
      }
      #presentationres p{
         font-family: 'Playfair Display', serif;
-            font-size: 20px;
-            margin: 25px;
+            font-size: 27px;
+            padding: auto;
             text-align: justify;
-            padding-top: 50px;
-            padding-bottom: 50px;
+            margin:25px;
+
      }
      .slider{
         display: none;
      }
      .sliderres {
-    display: unset;
+ display: unset;
         width: 600px;
         overflow: hidden;
         margin: 20px auto;
