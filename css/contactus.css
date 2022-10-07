@@ -89,6 +89,7 @@ select {
     color: black;
     font-family: 'Playfair', serif;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .bttn {
@@ -151,9 +152,8 @@ select {
     #message {
         border-radius: 10px;
         height: 150px;
-        width: 90rem;
+        width: 75rem;
         font-size: 20px;
-
     }
 
     #text h2 {
@@ -174,7 +174,7 @@ select {
         display: unset;
         width: 350px;
         height: 350px;
-        margin-left: 50%;
+        margin-left: 45%;
 
     }
 
